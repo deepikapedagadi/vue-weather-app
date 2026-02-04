@@ -1,4 +1,17 @@
 body {
-  margin: 0;
   padding: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  transition: background 0.4s ease;
+}
+body.dark {
+    background: linear-gradient(135deg, #020617, #0f172a);
+}
+html, body{
+    margin: 0;
+    min-height: 100vh;
+    font-family: Segou UI, sans-serif;
+}
+* {
+  box-sizing: border-box;
 }
